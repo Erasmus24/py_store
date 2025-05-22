@@ -1,0 +1,104 @@
+2025-May-14-14:55:22,ETL Job Started
+2025-May-14-14:55:22,Extract phase Started
+2025-May-14-14:55:23,Extract phase Ended
+2025-May-14-14:55:23,Transform phase Started
+2025-May-14-14:55:23,Transform phase Ended
+2025-May-14-14:55:23,Load phase Started
+2025-May-14-14:55:23,Load phase Ended
+2025-May-14-14:55:23,ETL Job Ended
+2025-05-14-15:09:06,ETL Job Started
+2025-05-14-15:09:06,Extract phase Started
+2025-05-14-15:09:06,Found CSV files: ['INSTRUCTOR.csv', 'source1.csv', 'source2.csv', 'source3.csv', 'transformed_data.csv']
+2025-05-14-15:09:06,Skipping INSTRUCTOR.csv: Missing required columns ['name', 'height', 'weight']
+2025-05-14-15:09:06,Found JSON files: ['source1.json', 'source2.json', 'source3.json']
+2025-05-14-15:09:06,Found XML files: ['source1.xml', 'source2.xml', 'source3.xml']
+2025-05-14-15:09:06,Extracted Data (before transform):
+     name  height  weight
+0    alex   65.78  112.99
+1    ajay   71.52  136.49
+2   alice   69.40  153.03
+3    ravi   68.22  142.34
+4     joe   67.79  144.30
+5    alex   65.78  112.99
+6    ajay   71.52  136.49
+7   alice   69.40  153.03
+8    ravi   68.22  142.34
+9     joe   67.79  144.30
+10   alex   65.78  112.99
+11   ajay   71.52  136.49
+12  alice   69.40  153.03
+13   ravi   68.22  142.34
+14    joe   67.79  144.30
+15   jack   68.70  123.30
+16    tom   69.80  141.49
+17  tracy   70.01  136.46
+18   john   67.90  112.37
+19   jack   68.70  123.30
+20    tom   69.80  141.49
+21  tracy   70.01  136.46
+22   john   67.90  112.37
+23   jack   68.70  123.30
+24    tom   69.80  141.49
+25  tracy   70.01  136.46
+26   john   67.90  112.37
+27  simon   67.90  112.37
+28  jacob   66.78  120.67
+29  cindy   66.49  127.45
+30   ivan   67.62  114.14
+31  simon   67.90  112.37
+32  jacob   66.78  120.67
+33  cindy   66.49  127.45
+34   ivan   67.62  114.14
+35  simon   67.90  112.37
+36  jacob   66.78  120.67
+37  cindy   66.49  127.45
+38   ivan   67.62  114.14
+2025-05-14-15:09:06,Extract phase Ended
+2025-05-14-15:09:06,Transform phase Started
+2025-05-14-15:09:06,Transformed Data:
+     name  height  weight
+0    alex    1.67   51.25
+1    ajay    1.82   61.91
+2   alice    1.76   69.41
+3    ravi    1.73   64.56
+4     joe    1.72   65.45
+5    alex    1.67   51.25
+6    ajay    1.82   61.91
+7   alice    1.76   69.41
+8    ravi    1.73   64.56
+9     joe    1.72   65.45
+10   alex    1.67   51.25
+11   ajay    1.82   61.91
+12  alice    1.76   69.41
+13   ravi    1.73   64.56
+14    joe    1.72   65.45
+15   jack    1.74   55.93
+16    tom    1.77   64.18
+17  tracy    1.78   61.90
+18   john    1.72   50.97
+19   jack    1.74   55.93
+20    tom    1.77   64.18
+21  tracy    1.78   61.90
+22   john    1.72   50.97
+23   jack    1.74   55.93
+24    tom    1.77   64.18
+25  tracy    1.78   61.90
+26   john    1.72   50.97
+27  simon    1.72   50.97
+28  jacob    1.70   54.73
+29  cindy    1.69   57.81
+30   ivan    1.72   51.77
+31  simon    1.72   50.97
+32  jacob    1.70   54.73
+33  cindy    1.69   57.81
+34   ivan    1.72   51.77
+35  simon    1.72   50.97
+36  jacob    1.70   54.73
+37  cindy    1.69   57.81
+38   ivan    1.72   51.77
+2025-05-14-15:09:06,Transform phase Ended
+2025-05-14-15:09:06,Load phase Started
+2025-05-14-15:09:06,Saved to transformed_data.csv
+2025-05-14-15:09:06,Saved to STAFF.db, table 'People'
+2025-05-14-15:09:06,Load phase Ended
+2025-05-14-15:09:06,ETL Job Ended
